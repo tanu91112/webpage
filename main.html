@@ -3,90 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Web Page</title>
+    <title>My Resume</title>
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
-            text-align: center;
+            background-color: #f4f4f9;
             color: #333;
         }
-        .header {
-            background: linear-gradient(135deg, #6a11cb, #2575fc);
-            color: white;
-            padding: 20px;
-            font-size: 28px;
-            font-weight: bold;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .nav {
-            background-color: #444;
-            padding: 15px;
-        }
-        .nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 18px;
-            transition: 0.3s;
-        }
-        .nav a:hover {
-            color: #ffcc00;
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
         }
         .container {
-            padding: 50px;
-        }
-        .button {
-            background: linear-gradient(135deg, #ff416c, #ff4b2b);
-            color: white;
-            padding: 12px 25px;
-            text-decoration: none;
-            border-radius: 25px;
-            display: inline-block;
-            margin-top: 30px;
-            font-size: 18px;
-            transition: 0.3s;
-        }
-        .button:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
         }
-        .footer {
-            background: linear-gradient(135deg, #2575fc, #6a11cb);
-            color: white;
-            padding: 15px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            font-size: 14px;
+        h1, h2, h3 {
+            margin: 0 0 15px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #604caf;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="header">Welcome to My Modern Web Page</div>
-    <div class="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <header>
+        <h1>My Resume</h1>
+    </header>
+
     <div class="container">
-        <div class="content">
-            <h2>About This Page</h2>
-            <p>This page demonstrates a sleek and modern web design using gradients, shadows, and hover effects.</p>
-            <a href="#" class="button">Explore More</a>
-        </div>
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Tanu Chandravanshi</p>
+            <p><strong>Email:</strong> tanuchandravanshi9@gmail.com</p>
+            <p><strong>Phone:</strong> 9111829838</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>INT. M.TECH AI</strong> - VIT Bhopal University (2027)</li>
+                
+            </ul>
+        </section>
+
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Presentation Skills</li>
+                <li>Communication Skills</li>
+                <li>Listening and Understanding Skills</li>
+                <li>Programming Skills</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Fraud Document Detection:</strong> Worked in making an application to detect fraud documents.</li>
+                <li><strong>Smart Helmet:</strong> Working to make software to detect dizziness and alcohol consumption.</li>
+            </ul>
+        </section>
     </div>
-    <div class="footer">&copy; 2025 Modern Web Page. All Rights Reserved.</div>
 </body>
 </html>
-
